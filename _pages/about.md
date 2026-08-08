@@ -11,7 +11,7 @@ redirect_from:
 
 I am **Yaoyun Zhang**, an audio researcher working on universal audio intelligence. I earned my M.Eng. in Computer Technology at [X-LANCE](https://x-lance.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), under the supervision of Prof. [Mengyue Wu](https://myw19.github.io/) and Prof. [Kai Yu](https://x-lance.github.io/kaiyu/). Before that, I received dual bachelor's degrees in Computer Science and Technology and English from [Chengdu University of Technology](https://www.cdut.edu.cn/).
 
-My research spans **multimodal audio generation**, **neural audio representation learning**, and **trustworthy audio intelligence**. I began by studying domain-invariant learning for Gaussian processes and Bayesian exploration. I then focused on synchronized video-to-audio generation, where I developed frame-level visual fusion and semantic temporal conditioning for Smooth-Foley. More recently, I have explored unified flow-matching models for audio generation from omni-modalities, as well as explainable and generalizable deepfake sound detection.
+My research spans **multimodal audio generation**, **unified audio representation learning**, and **trustworthy audio intelligence**. I began by studying domain-invariant learning for Gaussian processes and Bayesian exploration. I then focused on synchronized video-to-audio generation, where I developed frame-level visual fusion and semantic temporal conditioning for Smooth-Foley. More recently, I have explored unified flow-matching models for audio generation from omni-modalities, as well as explainable and generalizable deepfake sound detection.
 
 During my research internship at Meituan, I worked on neural audio codecs and tokenizers for unified representations of speech, music, and general sounds. This experience led to my current primary interest: developing unified audio codecs and generative models that remain efficient, robust, and generalizable across modalities and domains. Please feel free to contact me via [email](mailto:yaoyunzhang897@gmail.com).
 
@@ -63,7 +63,6 @@ During my research internship at Meituan, I worked on neural audio codecs and to
   <div class="education-details">
     <ul>
       <li>Worked on unified neural audio codecs and tokenizers for speech, music, and general sounds.</li>
-      <li>Explored efficient audio reconstruction through multi-codebook quantization and feature fusion.</li>
     </ul>
   </div>
 </div>
@@ -78,7 +77,7 @@ You can also find my publications on [Google Scholar](https://scholar.google.com
 *ICASSP 2025.*<br>
 [[Project]](https://danny-c-auditore.github.io/smoothfoley.github.io/) [[arXiv]](https://arxiv.org/abs/2412.18157)
 
-- Generates continuous, synchronized Foley audio using frame-level visual features and semantic temporal guidance.
+- A video-to-audio generation framework with frame-level visual fusion and semantic temporal guidance for continuous and synchronized Foley sound generation.
 
 ### FakeSound2: A Benchmark for Explainable and Generalizable Deepfake Sound Detection
 
@@ -86,7 +85,7 @@ Zeyu Xie, **Yaoyun Zhang**, Xuenan Xu, Yongkang Yin, Chenxing Li, Mengyue Wu\*, 
 *INTERSPEECH 2026.*<br>
 [[Project]](https://zeyuxie29.github.io/FakeSound2/) [[arXiv]](https://arxiv.org/abs/2509.17162)
 
-- Benchmarks deepfake sound detection across manipulation localization, source traceability, and generalization to unseen sources.
+- A benchmark for explainable and generalizable deepfake sound detection across localization, traceability, and generalization, covering 6 manipulation types and 12 diverse sources.
 
 ### UniFlow-Audio: A Unified Flow Matching Framework for Audio Generation from Omni-Modalities
 
@@ -94,7 +93,7 @@ Xuenan Xu, Jiahao Mei, Zihao Zheng, Ye Tao, Zeyu Xie, **Yaoyun Zhang**, Haohe Li
 *arXiv, 2025.*<br>
 [[Project]](https://wsntxxn.github.io/uniflow_audio/) [[arXiv]](https://arxiv.org/abs/2509.24391)
 
-- Unifies time-aligned and non-time-aligned audio generation from text, audio, and video within a flow-matching framework.
+- The first fully open-source Flow Matching-based unified audio generation framework with a novel Dual-Fusion mechanism for both Time-Align and Non-Time-Align tasks. Supports text, audio, and video inputs across 7 tasks (TTS, TTA, V2A, etc.).
 
 ### Domain Invariant Learning for Gaussian Processes and Bayesian Exploration
 
@@ -102,7 +101,7 @@ Zhaoxi Long, Siyuan Bian, **Yaoyun Zhang**, Yuliang Zhang, Qinying Gu, Xinbing W
 *AAAI 2024.*<br>
 [[Code]](https://github.com/Billzxl/DIL-GP) [[arXiv]](https://arxiv.org/abs/2312.11318)
 
-- Improves out-of-distribution generalization for Gaussian processes through domain-invariant learning and extends it to Bayesian exploration.
+- A domain-invariant learning framework for Gaussian processes that improves out-of-distribution generalization and extends Bayesian optimization to changing environments.
 
 <small>\* Corresponding author.</small>
 
