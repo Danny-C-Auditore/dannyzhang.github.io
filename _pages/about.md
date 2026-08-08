@@ -63,6 +63,7 @@ During my research internship at Meituan, I worked on neural audio codecs and to
   <div class="education-details">
     <ul>
       <li>Worked on unified neural audio codecs and tokenizers for speech, music, and general sounds.</li>
+      <li>Exploration and optimization of efficient audio reconstruction and generation.</li>
     </ul>
   </div>
 </div>
