@@ -23,7 +23,7 @@ repository               : "Danny-C-Auditore/dannyzhang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "yaoyun-zhang.jpg"
+  avatar           : "yaoyun-zhang-centered.jpg"
   name             : "Yaoyun Zhang"
   pronouns         : # example: "she/her"  
   bio              : "Audio generation and representation learning"
