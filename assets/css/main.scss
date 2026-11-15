@@ -39,11 +39,32 @@
 ;
 
 /* Keep the original photograph intact while presenting a focused sidebar portrait. */
+.sidebar div.author__avatar {
+  width: 80px;
+  vertical-align: middle;
+
+  @include breakpoint($large) {
+    width: 160px;
+  }
+}
+
 .author__avatar img {
-  width: 175px;
-  height: 175px;
+  display: block;
+  width: 80px;
+  height: 80px;
+  max-width: none;
+  box-sizing: border-box;
   object-fit: cover;
   object-position: 50% 40%;
+
+  @include breakpoint($large) {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+.author__content {
+  vertical-align: middle;
 }
 
 .author__urls li.author__desktop {
